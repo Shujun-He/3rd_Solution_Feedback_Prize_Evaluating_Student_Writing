@@ -12,6 +12,8 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ```Stacking``` code to reproduce span prediction gbm models using out of fold predictions
 
+```3rd_solution.pdf``` has a pdf describing our solution with references
+
 ## HARDWARE: (The following specs were used to create the original solution)
 We used a compute server with 8 x Nvidia RTX A6000, and stacking was run locally on a rtx 3090.
 
