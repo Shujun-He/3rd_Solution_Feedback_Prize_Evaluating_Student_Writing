@@ -41,4 +41,4 @@ Words are tokenized in real time during training/inference. See ```SW_Deberta/Da
 
 1. Training SW Deberta-xl: see detailed instructions in ```SW_Deberta```
 2. Training Longformer: see detailed instructions in ```Longformer```
-3. Stacking: see detailed instructions in ```Stacking```
+3. Stacking: see detailed instructions in ```Stacking```. Note that you should have finished running ```SW_Deberta``` and ```Longformer``` before running ```Stacking```.
