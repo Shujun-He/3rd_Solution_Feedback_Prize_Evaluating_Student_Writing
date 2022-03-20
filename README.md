@@ -16,7 +16,10 @@ If you run into any trouble with the setup/code or have any questions please con
 We used a compute server with 8 x Nvidia RTX A6000, and stacking was run locally on a rtx 3090.
 
 ## SOFTWARE:
-See ```requirements.txt```
+Python 3.8.10
+CUDA 11.3
+nvidia drivers v.460.56
+For the rest of required packages see ```requirements.txt```
 
 ## DATA SETUP (assumes the [Kaggle API](https://github.com/Kaggle/kaggle-api) is installed)
 
@@ -30,10 +33,10 @@ unzip these with their dataset names as folder names and put them in ```../input
 
 
 ## DATA PROCESSING
-Words are tokenized in real time during training/inference and the preprocessed training labels are in a file called ```train_NER.csv```
+Words are tokenized in real time during training/inference. See ```SW_Deberta/Dataset.py``` and ```Longformer/Dataset.py``` for details.
 
 ## MODEL BUILD
 
 1. Training SW Deberta-xl: see detailed instructions in ```SW_Deberta```
 2. Training Longformer: see detailed instructions in ```Longformer```
-3. Stacking: see detailed instructions in ```Stacking``` 
+3. Stacking: see detailed instructions in ```Stacking```
