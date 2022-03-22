@@ -22,6 +22,7 @@ Python 3.8.10
 CUDA 11.3
 nvidia drivers v.460.56
 For the rest of required packages see ```requirements.txt```
+-- Equivalent Dockerfile for the GPU installs: ```Dockerfile.tmpl```
 
 ## DATA SETUP (assumes the [Kaggle API](https://github.com/Kaggle/kaggle-api) is installed)
 
