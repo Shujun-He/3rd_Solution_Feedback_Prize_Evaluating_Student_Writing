@@ -43,3 +43,7 @@ Words are tokenized in real time during training/inference. See ```SW_Deberta/Da
 1. Training SW Deberta-xl: see detailed instructions in ```SW_Deberta```
 2. Training Longformer: see detailed instructions in ```Longformer```
 3. Stacking: see detailed instructions in ```Stacking```. Note that you should have finished running ```SW_Deberta``` and ```Longformer``` before running ```Stacking```.
+
+## MODEL BUILD
+
+Our inference notebook with all datasets (model weights, etc.) made public can be accessed at: https://www.kaggle.com/code/aerdem4/xgb-lgb-feedback-prize-cv-0-7322/notebook.
